@@ -1,0 +1,14 @@
+$ git checkout master (master'ı aktif yaptı)
+$ git branch new-branch (yeni branch eklendi)
+$ git checkout new-branch  (new-branch'i aktif yaptı)
+
+# ...develop some code... (bir feature kodlandı)
+
+$ git add –A  (feature eklendi)(git add .)
+$ git commit –m "Some commit message" (commitliyoruz)
+$ git checkout master (merge etmek için ana branch aktifleşti)
+$ git merge new-branch (new-branch master'a merge edildi)
+
+
+git log -> versiyonları listeliyor
+git status -> dizindeki file statulerini verir

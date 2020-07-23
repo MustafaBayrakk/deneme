@@ -15,3 +15,20 @@ git status -> dizindeki file statulerini verir
 git diff -> tüm dosyalardaki farklılıkları verir (çalışma alanı ile gitRepo arasındaki farklılıklar)
 git diff dosyaAdı.uzantısı -> sadece girilen dosyadaki farklılıkları verir
 git diff --staged -> stagedArea ile gitRepo arasındaki farklılıkları verir
+
+git rm fileName -> çalışma alanında silmiş olduğumuz dosyayı stagingArea'ya gönderir. (rm-remove) rm yerine add komutunu da kullanabiliriz yine.
+git rm -r klasörName/ -> klasörün içindekileri ve klasörü siler
+
+git mv deneme.txt deneme1.txt -> isim değişikliği yaptı.
+git mv deneme1.txt dosyalar/ -> deneme1.txt'yi dosyalar klasörünün altına taşıdı
+git checkout fileName -> fileName'deki değişiklikleri geri alır. (çalışma alanındaki değişiklikler için)
+git reset HEAD fileName -> fileName'deki değişiklikleri geri alır. (stagingArea'dan çalışma alanına geri alır)
+git checkout hashCodeOfPreviousVersion -- .  -> tüm dosyaları önceki versiyona döndürür.
+git checkout hashCodeOfPreviousVersion -- fileName  -> sadece seçilen dosyalayı önceki versiyona döndürür.
+
+git remote add connection https://github.com/MustafaBayrakk/deneme.git -> connection : bağlantıma isim verdim.  git ile gitHub bağlantımı kurdum.
+git push -u connection master -> connection adlı bağlantımı gitHub'a pushladım. 
+
+
+gitHub - private repository oluşturmak ücretli. öğrencilere beleş ?
+gitLab - private repository oluşturmak ücretsiz.

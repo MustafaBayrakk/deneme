@@ -1,2 +1,0 @@
-def surname():
-	return "Bayrak"

@@ -12,3 +12,6 @@ $ git merge new-branch (new-branch master'a merge edildi)
 
 git log -> versiyonları listeliyor
 git status -> dizindeki file statulerini verir
+git diff -> tüm dosyalardaki farklılıkları verir (çalışma alanı ile gitRepo arasındaki farklılıklar)
+git diff dosyaAdı.uzantısı -> sadece girilen dosyadaki farklılıkları verir
+git diff --staged -> stagedArea ile gitRepo arasındaki farklılıkları verir

@@ -29,6 +29,13 @@ git checkout hashCodeOfPreviousVersion -- fileName  -> sadece seçilen dosyalay�
 git remote add connection https://github.com/MustafaBayrakk/deneme.git -> connection : bağlantıma isim verdim.  git ile gitHub bağlantımı kurdum.
 git push -u connection master -> connection adlı bağlantımı gitHub'a pushladım. 
 
+$ cat >> .gitignore -> gitignore içindeki dosyalar github'da gözükmez. gizlenir.
+olala.txt ->gitignore içine yazdığım dosya adı
+
+
+touch dosya{1..5}.html -> dosya1.html  dosya2.html dosya3.html dosya4.html dosya5.html dosyalarını yaratıyor.
+
+gedit fileName -> dosyayı açar.
 
 gitHub - private repository oluşturmak ücretli. öğrencilere beleş ?
 gitLab - private repository oluşturmak ücretsiz.

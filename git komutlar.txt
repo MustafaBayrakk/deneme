@@ -37,5 +37,8 @@ touch dosya{1..5}.html -> dosya1.html  dosya2.html dosya3.html dosya4.html dosya
 
 gedit fileName -> dosyayı açar.
 
+git branch --all -> github'daki branchleri de getirir.
+
+
 gitHub - private repository oluşturmak ücretli. öğrencilere beleş ?
 gitLab - private repository oluşturmak ücretsiz.

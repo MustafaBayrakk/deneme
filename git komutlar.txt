@@ -41,6 +41,9 @@ git branch -> git'deki branch'leri getirir
 git branch --all -> github'daki branchleri de getirir.
 git branch newBranchName -> yeni bir branch oluşturur
 
+git diff master branc2 -> ikisi arasındaki farklar
+
+
 
 gitHub - private repository oluşturmak ücretli. öğrencilere beleş ?
 gitLab - private repository oluşturmak ücretsiz.
